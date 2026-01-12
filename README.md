@@ -41,7 +41,7 @@ pre-commit install --hook-type pre-commit --hook-type post-merge
 This repository extends the upstream **LION** framework with diffusion-based reconstruction modules.
 
 **Important** 
-It is assumed that the **Python environment has already been created following the original LION installation**.  
+It is assumed that the **Python environment has already been created following the original LION installation**. 
 This document describes the **additional installation steps (2–5)** required to run the diffusion extensions.
 
 ---
@@ -66,7 +66,7 @@ pip install -e .
 cd ..
 ```
 
-4. Download pretrained checkpoints (this is not the optimal directon)
+4. Download pretrained checkpoints (this is not the optimal direction)
 ```
 mkdir -p models/ldm
 wget https://ommer-lab.com/files/latent-diffusion/ffhq.zip -P models/ldm
