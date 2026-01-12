@@ -1,0 +1,28 @@
+conditioning:
+  main_sampler: resample
+  method: ps # Do not touch
+  params:
+    scale: 0.5
+
+#data:
+#  name: celeb
+#  root: ./data/samples/
+####
+data:
+  measurements_dir: ./data/my_blur        # folder of your blurred images
+  extensions: [png, jpg, jpeg]
+####
+
+measurement:
+  operator:
+    name: gaussian_blur
+    kernel_size: 61
+    intensity: 3.0
+  
+  noise: 
+    name: gaussian
+##    sigma: 0.01
+
+##########
+    sigma: 0.0
+#########
