@@ -16,3 +16,23 @@ example.py
 /slurm
 
 wandb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Diffusion generated content
+LION/models/diffusion/data/
+LION/models/diffusion/figures/
+
+# Diffusion model weights
+LION/models/diffusion/**/*.ckpt
+LION/models/diffusion/**/*.pth
+LION/models/diffusion/**/*.pt
+LION/models/diffusion/**/*.npz
+
+# First-stage model weights
+LION/models/first_stage_models/**/*.ckpt
+LION/models/first_stage_models/**/*.pth
+LION/models/first_stage_models/**/*.pt
+LION/models/first_stage_models/**/*.npz

@@ -1,4 +1,4 @@
-# This file is part of LION library
+## This file is part of LION library
 # License : BSD-3
 #
 # Author  : Emilien Valat
@@ -6,9 +6,15 @@
 # =============================================================================
 
 from LION.utils.paths import DETECT_PATH
+from pathlib import Path 
+
+
 from LION.utils.utils import download_file, unzip_file
 
 storage_path = DETECT_PATH
+##storage_path = Path("/home/honglei/datasets/2deteCT") ## new
+##storage_path.mkdir(parents=True, exist_ok=True) ## new
+
 file_ids = {3723295: [i for i in range(0, 7)], 4121926: [i for i in range(7, 10)]}
 
 data_ids = {

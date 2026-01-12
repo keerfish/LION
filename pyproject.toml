@@ -40,7 +40,7 @@ dependencies = [
     "h5py",
     "imageio",
     "kornia",  # LION/optimizers/GaussianDenoiserSolver.py
-    "lightning",
+   # "lightning",
     "matplotlib",
     "numpy",
     "opencv-python",
